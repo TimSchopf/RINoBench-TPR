@@ -36,9 +36,7 @@ TPR is computationally efficient and lightweight. All LLM parameters remain froz
 ```
 NoveltyBench/
 ├── data/
-│   ├── final_benchmark_dataset                # includes the dataset of RINoBench
-│   ├── evaluations                            # incudes the evaluation results of various state-of-the-art LLMs on RINoBench
-│   └── novelty_predictions                    # incudes the reserach idea novelty judgments of various state-of-the-art LLMs on RINoBench
+│   └──  final_benchmark_dataset               # includes the dataset of RINoBench
 │
 ├── figures/                                   # includes figures from the paper
 │
