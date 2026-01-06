@@ -12,6 +12,7 @@
 
 Judging the novelty of research ideas is crucial for advancing science, enabling the identification of unexplored directions, and ensuring contributions meaningfully extend existing knowledge rather than reiterate minor variations. However, given the exponential growth of scientific literature, manually judging the novelty of research ideas through literature reviews is labor-intensive, subjective, and infeasible at scale. Therefore, recent efforts have proposed automated approaches for research idea novelty judgment. Yet, evaluation of these approaches remains largely inconsistent and is typically based on non-standardized human evaluations, hindering large-scale, comparable evaluations. To address this, we introduce **RINoBench 🦏**, the first comprehensive benchmark for large-scale evaluation of research idea novelty judgments.
 Our benchmark unifies approaches for judging the novelty of research ideas by formalizing the task, illustrated in the Figure above, as the process of comparing a proposed idea with existing work to identify meaningful differences. Further, the task requires predicting a rubric-based novelty score (1–5) alongside a textual justification that grounds the judgment in related literature. This task design enables fine-grained, interpretable judgments of novelty and provides actionable feedback, empowering researchers to iteratively refine their ideas towards greater innovation and impact.
+
 ---
 ## Think-Probe-Respond (TPR)
 
